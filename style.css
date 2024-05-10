@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #f3f3f0;
+}
+.top{
+    height: 35px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.topleft
+.wplogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+    cursor: default;
+}
+
+.wplogo img{
+    height: 35px;
+}
+
+.topright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    color: #707070;
+}
+
+.miniicon{
+    height: 35px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.maxiicon{
+    height: 35px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.closeicon{
+    height: 35px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hover:hover{
+    height: 35px;
+    width: 50px;
+    background-color: #e2e2e2;
+}
+
+.hovered:hover{
+    height: 35px;
+    width: 50px;
+    background-color: #ef3c3c;
+    color: white;
+}
+
+/* =============Bottom==================== */
+.bottom{
+    width: 100%;
+    top: 45px;
+}
+
+.secton_left{
+    height: 90vh;
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 45px;
+    color: #332f2f;
+    font-size: 1.1rem;
+    padding-left: 5px;
+}
+
+.iconspase{
+    height: 50%;
+}
+.secton_left i{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #303030;
+
+}
+
+.btmhover:hover{
+    height: 40px;
+    width: 40px;
+    background-color: #e2e2e2;
+    border-radius: 5px;
+}
+
+.icon1{
+    border-left: 2px solid #77b41c;
+}
+
+.icon7{
+    font-size: 1.5rem;
+}
+
+.icon5{
+    border-bottom: 1px solid #d5d5d5;
+}
+
+/* ========User  section========= */
+.section_right{
+    margin-left: 60px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #e4e4e4;
+    color: #464646;
+    position: fixed;
+    top: 45px;
+
+}
+
+.rightone{
+    width: 400px;
+    border-right: 1px solid #ebebeb;
+
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.headspase{
+    width: 100%;
+}
+.search{
+    margin-left: 20px;
+    width: 90%;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    border-bottom: 2px solid #15a535;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.search input{
+    width: 340px;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+.search i{
+    padding-left: 5px;
+    color: #727272;
+    font-size: 0.8rem;
+
+}
+
+.userspase{
+    height: 20px;
+}
+
+.user_list{
+    height: 60px;
+    width: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 10px;
+
+}
+
+.downinfo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.9rem;
+    padding-top: 2px;
+}
+
+.usericon{
+    font-size: 2.8rem;
+    padding-left: 5px;
+}
+
+.numberinfo{
+    padding-right: 100px;
+
+
+}
+
+.number{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.btmhead{
+    height: 40px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btmhead:hover{
+    background-color: #e2e2e2;
+    border-radius: 5px;
+}
+
+.user_section{
+    height: 72vh;
+    width: auto;
+    overflow: auto;
+
+}
+
+::-webkit-scrollbar{
+    width: 2px;
+}
+
+::-webkit-scrollbar-track{
+    background: white;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #747474;
+}
+
+.userhover:hover{
+    background-color: #e2e2e2;
+    border-radius: 5px;
+}
+
+/* ==============right two==== */
+
+.righttwo{
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.right2_icon i{
+    font-size: 5rem;
+    color: #c7c7c7;
+}
+
+.right2_para1 p{
+    font-size: 1.5rem;
+    color: #333333;
+}
+
+.right2_para2{
+    text-align: center;
+    color: #707070;
+    font-size: 0.9rem;
+}
+
+.right2_para3{
+    margin-top: 100px;
+    font-size: 0.8rem;
+    color: #9c9c9c;
+}
